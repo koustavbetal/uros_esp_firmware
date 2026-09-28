@@ -1,0 +1,52 @@
+# ---- Colcon / ROS 2 build artifacts ----
+build/
+install/
+log/
+
+# ---- VSCode ----
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+
+# ---- CMake / Make ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.make
+*.cmake
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# ---- Compiled objects ----
+*.o
+*.so
+*.a
+*.out
+
+# ---- Editor / OS junk ----
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Colcon / ROS metadata ----
+.colcon/
+.rosinstall
+CATKIN_IGNORE
+
+.pio/
